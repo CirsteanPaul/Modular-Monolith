@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Database", "Database", "{0A2FEE4E-07E0-4480-94CC-B138265682CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modular.App.Database", "Database\Modular.App.Database\Modular.App.Database.csproj", "{27E1C08C-F5D9-47AB-97BA-2CD4A6390FEF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modular.App.DatabaseMigrator", "Database\Modular.App.DatabaseMigrator\Modular.App.DatabaseMigrator.csproj", "{D19439D3-5686-40E3-A47E-21BB0939CDDE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Solution Items", "_Solution Items", "{633DCC47-3261-4FB5-9668-9F3AFD12384A}"
+	ProjectSection(SolutionItems) = preProject
+		Directory.Build.props = Directory.Build.props
+		Directory.Build.targets = Directory.Build.targets
+		Directory.Packages.props = Directory.Packages.props
+		.editorconfig = .editorconfig
+		global.json = global.json
+		stylecop.json = stylecop.json
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{27E1C08C-F5D9-47AB-97BA-2CD4A6390FEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27E1C08C-F5D9-47AB-97BA-2CD4A6390FEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27E1C08C-F5D9-47AB-97BA-2CD4A6390FEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27E1C08C-F5D9-47AB-97BA-2CD4A6390FEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D19439D3-5686-40E3-A47E-21BB0939CDDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D19439D3-5686-40E3-A47E-21BB0939CDDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D19439D3-5686-40E3-A47E-21BB0939CDDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D19439D3-5686-40E3-A47E-21BB0939CDDE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{27E1C08C-F5D9-47AB-97BA-2CD4A6390FEF} = {0A2FEE4E-07E0-4480-94CC-B138265682CC}
+		{D19439D3-5686-40E3-A47E-21BB0939CDDE} = {0A2FEE4E-07E0-4480-94CC-B138265682CC}
+	EndGlobalSection
+EndGlobal

@@ -1,4 +1,4 @@
-﻿FROM library/postgres
+﻿FROM arm64v8/postgres
 
 COPY Modular.App.Database/Scripts/ /docker-entrypoint-initdb.d/
 

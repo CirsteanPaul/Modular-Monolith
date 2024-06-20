@@ -23,7 +23,6 @@ services:
   modular-db:
     build: ./src/Database/
     restart: always
-    platform: linux/amd64
     volumes:
       - db-data:/var/lib/postgresql/data
     ports:

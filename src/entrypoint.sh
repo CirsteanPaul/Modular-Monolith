@@ -1,8 +1,8 @@
 #!/bin/bash
-echo "Waiting 60 seconds to start backend"
+echo "Waiting 30 seconds to start backend"
 
-sleep 60;
+sleep 30;
 
 echo "Backend starting..."
 
-dotnet CompanyName.MyMeetings.API.dll
+dotnet WebApi.dll
